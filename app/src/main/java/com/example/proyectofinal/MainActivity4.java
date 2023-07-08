@@ -37,12 +37,10 @@ public class MainActivity4 extends Activity {
                 crearNuevoPost();
             }
         });
+
     }
 
     private void crearNuevoPost() {
-        // Aquí puedes agregar el código para guardar el nuevo post
-        // Por ejemplo, puedes obtener el contenido del post desde un EditText
-        // y agregarlo a la lista de posts
         String nuevoPost = "Contenido del nuevo post";
         postList.add(nuevoPost);
         adapter.notifyDataSetChanged();

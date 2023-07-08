@@ -28,11 +28,13 @@ public class MainActivity3 extends Activity {
             public void onClick(View v) {
                 String respuesta = editTextRespuesta.getText().toString();
                 guardarRespuesta(respuesta);
+
             }
         });
     }
 
     private void guardarRespuesta(String respuesta) {
-        // Aquí puedes agregar el código para guardar la respuesta en un archivo XML
+
+
     }
 }

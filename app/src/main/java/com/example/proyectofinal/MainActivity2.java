@@ -27,7 +27,6 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String consulta = editTextRespuesta.getText().toString();
-
                 Toast.makeText(MainActivity2.this, "Consulta guardada: " + consulta, Toast.LENGTH_SHORT).show();
             }
         });
